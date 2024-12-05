@@ -9,19 +9,19 @@ The input part of the project consists of using multiple sensors that read, at w
 Thus, detecting a temperature above the allowable limits triggers the activation of a fan to partially reduce the excessive heat, which could harm the plant. Additionally, an LED system is used for ambient lighting in the flower nursery, which can be activated on cloudy days, at dusk, or by any other factor that reduces the amount of natural or artificial light received.
 
 # Components
-Arduino UNO
-Breadboard
-LCD Screen
-LEDs
-Fan
-Water Pump
-Transistor
-Temperature and Humidity Sensor
-Soil Moisture Sensor
-Light Intensity Sensor
-Resistors
-Battery Holder
-Battery
-Wires
-Capacitor
-Diode
+- Arduino UNO
+- Breadboard
+- LCD Screen
+- LEDs
+- Fan
+- Water Pump
+- Transistor
+- Temperature and Humidity Sensor
+- Soil Moisture Sensor
+- Light Intensity Sensor
+- Resistors
+- Battery Holder
+- Battery
+- Wires
+- Capacitor
+- Diode
