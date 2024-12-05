@@ -1,4 +1,4 @@
-# Lazy Indoor Garden
+# Lazy Indoor Garden 🌱✨
 
 ## Introduction 
 A small garden located within an apartment, where the temperature, water level, and light are adjusted according to the type of plants in the garden. The temperature, humidity, and light levels will be monitored using sensors placed in the garden. The measured parameters will be displayed on an LCD.
