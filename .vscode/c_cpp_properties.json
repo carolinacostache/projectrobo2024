@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
-                "C:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
+                "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
+                "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -22,8 +22,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
-                    "C:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
+                    "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
+                    "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/variants/standard",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
