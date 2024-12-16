@@ -29,12 +29,7 @@ The sensor data is displayed to users on an LCD screen, with updates provided at
 |Breadboard ||||
 |LCD 1602 Module ||Kit||
 |LEDs 5 mm||||
-|Fan ||[Store](https://www.emag.ro/ventilator-pc-lhr-super-fan-80x80x25mm-3000rpm-12v-0-20a-lhr-80-2p-b/pd/DTFH9BMBM/?ref=history-shopping_404566740_5919_1)|- Airflow (CFM): 41.2 |
-||||- Speed: 3000 RPM |
-||||- Dimensions: 80 x 80 x 25 mm|
-||||- Noise Level (dB): 34 dB|
-||||- Voltage: 12 V|
-||||- Weight: 54 g|
+|Fan ||[Store](https://www.emag.ro/ventilator-pc-lhr-super-fan-80x80x25mm-3000rpm-12v-0-20a-lhr-80-2p-b/pd/DTFH9BMBM/?ref=history-shopping_404566740_5919_1)|- Airflow (CFM): 41.2 <br> - Speed: 3000 RPM <br>- Dimensions: 80 x 80 x 25 mm <br>- Noise Level (dB): 34 dB <br>- Voltage: 12 V <br>- Weight: 54 g|
 |Water Pump 3-5V||[Store](https://www.emag.ro/pompa-de-apa-3-6v-cl88/pd/D91Z5JBBM/)|- Voltage: DC 3-5V
 ||||- Current: 100-200mA|
 ||||- Flow Rate: 1.2-1.6 L/min|
