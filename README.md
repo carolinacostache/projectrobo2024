@@ -29,8 +29,7 @@ The sensor data is displayed to users on an LCD screen, with updates provided at
 |Breadboard ||||
 |LCD 1602 Module ||Kit||
 |LEDs 5 mm||||
-|Fan ||[Store](https://www.emag.ro/ventilator-pc-lhr-super-fan-80x80x25mm-3000rpm-12v-0-20a-lhr-80-2p-b/pd/DTFH9BMBM/?ref=history-shopping_404566740_5919_1)|- Airflow (CFM): 41.2
-- Speed: 3000 RPM
+|Fan ||[Store](https://www.emag.ro/ventilator-pc-lhr-super-fan-80x80x25mm-3000rpm-12v-0-20a-lhr-80-2p-b/pd/DTFH9BMBM/?ref=history-shopping_404566740_5919_1)|- Airflow (CFM): 41.2 - Speed: 3000 RPM
 - Dimensions: 80 x 80 x 25 mm
 - Noise Level (dB): 34 dB
 - Voltage: 12 V
