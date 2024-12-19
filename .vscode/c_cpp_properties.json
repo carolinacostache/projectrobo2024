@@ -10,6 +10,9 @@
             "includePath": [
                 "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
                 "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
+                "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/DHT sensor library",
+                "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/Adafruit Unified Sensor",
+                "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/LiquidCrystal/src",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -24,6 +27,9 @@
                 "path": [
                     "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
                     "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
+                    "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/DHT sensor library",
+                    "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/Adafruit Unified Sensor",
+                    "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/LiquidCrystal/src",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/variants/standard",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
