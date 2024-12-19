@@ -56,7 +56,7 @@ The sensor data is displayed to users on an LCD screen, with updates provided at
 ## Block Diagram 🖼
 ![Block Diagram](<images/Lazy Indoor Garden 🌱✨.png>)
 
-## Electric Scheme
+## Electric Scheme ⚡
 ![Scheme](<images/fingers crossed.png>)
 
 ## Bill of Materials 🔩
@@ -81,13 +81,13 @@ The sensor data is displayed to users on an LCD screen, with updates provided at
 |Diode ||Kit|-|
 |Relay |![PHOTO](<images/BOM/WhatsApp Image 2024-12-16 at 11.22.15 PM (2).jpeg>)|Kit|-|
 
-## Hardware Gallery
+## Hardware Gallery 📷
 ![](<images/1st Harware check/WhatsApp Image 2024-12-19 at 2.10.21 PM.jpeg>)
 ![](<images/1st Harware check/WhatsApp Image 2024-12-19 at 2.10.22 PM (1).jpeg>)
 ![](<images/1st Harware check/WhatsApp Image 2024-12-19 at 2.10.22 PM (2).jpeg>)
 ![](<images/1st Harware check/WhatsApp Image 2024-12-19 at 2.10.22 PM.jpeg>)
 
-## Video with the temperature sensor functionality
+## Video with the temperature sensor functionality 🎥
 [Video](https://youtu.be/YjUPRb3dIJw)
 
 ## Software Design
