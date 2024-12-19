@@ -18,40 +18,40 @@ The sensor data is displayed to users on an LCD screen, with updates provided at
 
 ## Hardware Design - Milestone 2
 ### LCD 1602:
-Role: Displays information about temperature, humidity, light levels, and soil moisture.
-Interface: Connected via I2C interface.
-Arduino Pins: D2, D3, D4, D5, D11, D12.
+- Role: Displays information about temperature, humidity, light levels, and soil moisture.
+- Interface: Connected via I2C interface.
+- Arduino Pins: D2, D3, D4, D5, D11, D12.
 
 ### DHT11 Temperature and Humidity Sensor:
-Role: Measures temperature and humidity in the air.
-Interface: Connected to a digital pin on the Arduino.
-Arduino Pins: D13.
+- Role: Measures temperature and humidity in the air.
+- Interface: Connected to a digital pin on the Arduino.
+- Arduino Pins: D13.
 
 ### Soil Moisture Sensor:
-Role: Measures the soil moisture to determine whether the water pump needs to be activated.
-Interface: Connected to an analog pin on the Arduino.
-Arduino Pins: A0.
+- Role: Measures the soil moisture to determine whether the water pump needs to be activated.
+- Interface: Connected to an analog pin on the Arduino.
+- Arduino Pins: A0.
 
 ### BH1750 Light Intensity Sensor:
-Role: Measures the light level in the environment to decide whether to turn on the LEDs.
-Interface: I2C interface.
-Arduino Pins: A4, A5.
+- Role: Measures the light level in the environment to decide whether to turn on the LEDs.
+- Interface: I2C interface.
+- Arduino Pins: A4, A5.
 
 ### Fan:
-Role: Activates when the temperature exceeds a certain threshold to cool the air around the plants.
-Interface: Connected to a relay, which is controlled by a digital pin on the Arduino.
-Arduino Pins: Digital pin controlled via an NPN transistor to activate the relay.
-Energy Consumption: Approximately 150-200 mA.
+- Role: Activates when the temperature exceeds a certain threshold to cool the air around the plants.
+- Interface: Connected to a relay, which is controlled by a digital pin on the Arduino.
+- Arduino Pins: Digital pin controlled via an NPN transistor to activate the relay.
+- Energy Consumption: Approximately 150-200 mA.
 
 ### Water Pump:
-Role: Activated when the soil moisture sensor detects low moisture levels.
-Interface: Connected to a relay controlled by the Arduino.
-Arduino Pins: Digital pin controlling the relay through an NPN transistor.
-Energy Consumption: Approximately 100-150 mA.
+- Role: Activated when the soil moisture sensor detects low moisture levels.
+- Interface: Connected to a relay controlled by the Arduino.
+- Arduino Pins: Digital pin controlling the relay through an NPN transistor.
+- Energy Consumption: Approximately 100-150 mA.
 
 ### Relay:
-Role: Allows switching high-power components (fan, water pump).
-Interface: Controlled by the Arduino through an NPN transistor.
+- Role: Allows switching high-power components (fan, water pump).
+- Interface: Controlled by the Arduino through an NPN transistor.
 
 ## Block Diagram 🖼
 ![Block Diagram](<images/Lazy Indoor Garden 🌱✨.png>)
