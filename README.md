@@ -90,11 +90,42 @@ The sensor data is displayed to users on an LCD screen, with updates provided at
 ## Video with the temperature sensor functionality 🎥
 [Video](https://youtu.be/YjUPRb3dIJw)
 
-## Software Design
+## Software Design - Milestone 3
+
+## Code Structure
+For a better understanding of the code structure, in the implementation, I used different auxiliary files to organize the logic.
+- SETUP.cpp/SETUP.h ⇒ As the names suggests, it contains the implementation of functions used for initializing the necessary parameters (the pins for the fan, LEDs and water pump, the sensors and the timer for interruptions)
+- LCD.cpp/LCD.h ⇒ it contains functions for displaying information on the LCD display (message animations, displaying the main environmental parameters, a little fun surprise)
+- SENSORS.cpp/SENSORS.h ⇒ it contains implementations used for reading the values of the main parameters recorded by the sensors present in the circuit, as well as triggering the operation of the output components, depending on certain conditions that will be detailed late
+- main.cpp ⇒ it contains he main logic of the program
+
+## Program Flow
+The circuit operates independently of human assistance. Human intervention is only required to refill the water reservoir used for watering the plant.
+Once activated, the circuit performs the following steps:
+- setup ⇒ Uses the previously defined files and functions
+- loop ⇒ Similar to the setup method, it uses the previously defined files and methods
+
+Using a time counter variable and an interrupt handling routine, new data is collected at regular intervals of about one minute. Between two consecutive data recordings, the sampled values from the last collection (Light Intensity, Temperature, Humidity, and Soil Moisture) are displayed on the screen.
+
+When collecting the data, certain threshold parameters are checked, which may trigger the operation of one of the output components.
+The fan is turned on when, after data collection, the ambient temperature exceeds the optimal temperature for an indoor plant (~24°C).
+Once turned on, the fan will run for a certain preset period of time (currently set to approximately 30 minutes). There will also be a mandatory pause between two successive fan activations to avoid stressing the hardware and causing harmful behavior to the plant.
+
+The LEDs are turned on if the light received by the sensor is below 10lx. They remain on until the next data sampling, which determines a higher ambient light intensity (>80lx).
+Upon turning on the LEDs, the light intensity is recalculated before displaying the value on the screen.
+
+Watering the plant through the hose and water pump is triggered when the soil moisture sensor detects dry soil. There is a time gap between two successive watering actions, during which the plant cannot be watered, regardless of the sampled parameters, allowing the water to be absorbed into the soil, and the new moisture parameters to be correctly provided.
+
+## Libraries
+- LiquidCrystal.h ⇒ For the 1602 LCD display.
+- Wire.h ⇒ For communication with the I2C device BH1750.
+- DHT.h ⇒ For using the DHT11 sensor to record temperature and humidity.
+- BH1750.h ⇒ For using the BH1750 sensor to record ambient light intensity.
+
+
 
 ## Results
 
-## Pictures
 
 ## Video
 

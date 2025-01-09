@@ -10,16 +10,18 @@
             "includePath": [
                 "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
                 "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
+                "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/BH1750/src",
+                "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/DHT sensor library",
                 "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/Adafruit Unified Sensor",
                 "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/LiquidCrystal/src",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/variants/standard",
+                "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/Unity/src",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -27,16 +29,18 @@
                 "path": [
                     "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/include",
                     "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/src",
+                    "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/BH1750/src",
+                    "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/DHT sensor library",
                     "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/Adafruit Unified Sensor",
                     "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/LiquidCrystal/src",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "c:/Users/Carolina/Documents/PlatformIO/Projects/projectrobo2024/.pio/libdeps/uno/Unity/src",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/Carolina/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },
