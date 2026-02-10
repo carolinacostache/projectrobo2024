@@ -116,19 +116,15 @@ Upon turning on the LEDs, the light intensity is recalculated before displaying 
 
 Watering the plant through the hose and water pump is triggered when the soil moisture sensor detects dry soil. There is a time gap between two successive watering actions, during which the plant cannot be watered, regardless of the sampled parameters, allowing the water to be absorbed into the soil, and the new moisture parameters to be correctly provided.
 
-## Libraries
+## Libraries 📖
 - LiquidCrystal.h ⇒ For the 1602 LCD display.
 - Wire.h ⇒ For communication with the I2C device BH1750.
 - DHT.h ⇒ For using the DHT11 sensor to record temperature and humidity.
 - BH1750.h ⇒ For using the BH1750 sensor to record ambient light intensity.
 
-
-
-## Results
-
-
-## Video
-
-## Diary
-
 ## Resources
+https://eazytronic.com/soil-moisture-sensor-arduino/
+https://chrisruppel.com/blog/arduino-automated-greenhouse/
+https://lastminuteengineers.com/soil-moisture-sensor-arduino-tutorial/
+https://forum.arduino.cc/t/switching-a-cooling-fan-on-and-off-through-npn-transistor-connected-to-arduino/512176
+https://maxpromer.github.io/LCD-Character-Creator/
